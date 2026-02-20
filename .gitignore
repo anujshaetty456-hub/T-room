@@ -8,6 +8,7 @@ coverage/
 
 # Production
 dist/
+dist - Copy/
 build/
 
 # Misc
@@ -19,6 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+debug_vite.log
+debug_vite_err.log
+dev.log
+dev_output.txt
 
 # Local env files
 .env*.local
@@ -35,11 +40,4 @@ yarn-error.log*
 *.sw?
 
 # Vite specific
-app/dist/
-app/dist - Copy/
-app/node_modules/
-app/debug_vite.log
-app/debug_vite_err.log
-app/dev.log
-app/dev_output.txt
-app/public - Copy/
+public - Copy/
